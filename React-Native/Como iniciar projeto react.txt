@@ -1,0 +1,16 @@
+expo start
+iniciar um projeto
+expo init 02Projeto --npm
+
+
+
+Script de React Ordem
+	npm i styled-components
+	+    
+	https://reactnavigation.org/docs/native-stack-navigator/
+	
+	AsyncStorage expo
+	https://docs.expo.dev/versions/latest/sdk/async-storage/
+	
+	
+	
