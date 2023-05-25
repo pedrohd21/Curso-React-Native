@@ -6,7 +6,7 @@ Este repositório contém o projeto e recursos desenvolvidos durante o curso de 
 
 O curso de React Native proporcionou uma imersão completa no desenvolvimento de aplicativos móveis utilizando a tecnologia React Native. Ao longo do curso, foram abordados os seguintes tópicos:
 
-### CSS-in-JS, criando interface e navegação
+### 🎨 CSS-in-JS, criando interface e navegação
 - Introdução ao CSS-in-JS
 - Utilização do Styled Components para estilização de componentes
 - Utilização de Alias de Importação para melhorar a organização do código
@@ -23,8 +23,9 @@ O curso de React Native proporcionou uma imersão completa no desenvolvimento de
 - Estilização de placeholders e utilização de CSS Helper
 - Criação de um componente dinâmico para ícone
 - Implementação de um componente de filtro
+- Criação do componente PlayerCard e finalização da lista de Players
 
-### Navegação
+### 🚀 Navegação
 - Introdução aos conceitos de navegação em React Native
 - Tipos de navegação, incluindo Stack Navigator
 - Instalação e implementação do Stack Navigator
@@ -33,7 +34,7 @@ O curso de React Native proporcionou uma imersão completa no desenvolvimento de
 - Utilização da SafeAreaView para melhorar a visualização em diferentes dispositivos
 - Passagem de parâmetros através das rotas
 
-### Local Storage
+### 💾 Local Storage
 - Introdução ao conceito de Local Storage
 - Compreensão do Prop Drilling
 - Utilização do Async Storage para armazenamento assíncrono
@@ -46,5 +47,3 @@ O curso de React Native proporcionou uma imersão completa no desenvolvimento de
 - Remoção de Players e Grupos
 - Recapitulação dos principais conceitos
 - Refatoração do componente Loading
-- Encerramento do curso
-
