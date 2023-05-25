@@ -64,7 +64,7 @@ export default function Home() {
         showsVerticalScrollIndicator={false}
         ListEmptyComponent={() => (
           <Text style={styles.listEmptyText}>
-            ninguem chegou aq
+            ninguem chegou aqui.
           </Text>
         )}
       /> 
