@@ -1,5 +1,3 @@
-# Bem-vindo(a) ao meu perfil do GitHub! 👋
-
 ## Curso de React Native 📱
 
 Olá! Meu nome é Pedro e este é o meu repositório dedicado ao curso de React Native que eu fiz. Aqui você encontrará os projetos, exercícios e recursos adicionais desenvolvidos durante o curso.
