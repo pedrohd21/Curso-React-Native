@@ -43,10 +43,12 @@ export default {
     TEAL_DARK: '#00685B', // Tonalidade de verde-azulado mais escura
     TEAL_LIGHT: '#4FD1BB', // Tonalidade de verde-azulado mais clara
 
-    GRAY_900: '#212121', // Tonalidade de cinza mais escura
-    GRAY_700: '#424242', // Tonalidade de cinza média
-    GRAY_500: '#757575', // Tonalidade de cinza padrão
-    GRAY_300: '#BDBDBD', // Tonalidade de cinza mais clara
+    GRAY_800: '#121214', //Tonalidade de cinza mais escura/escura
+    GRAY_700: '#424242', // Tonalidade de cinza mais escura
+    GRAY_600: '#212121', // Tonalidade de cinza mais escura
+    GRAY_500: '#424242', // Tonalidade de cinza média
+    GRAY_400: '#757575', // Tonalidade de cinza padrão
+    GRAY_200: '#BDBDBD', // Tonalidade de cinza mais clara
     GRAY_100: '#F5F5F5' // Tonalidade de cinza muito clara
   },
   FONT_FAMILY: {

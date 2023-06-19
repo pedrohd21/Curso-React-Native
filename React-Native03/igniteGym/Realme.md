@@ -10,3 +10,9 @@
 - [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context) - Biblioteca para lidar com áreas seguras em dispositivos móveis no React Native.
 - [react-native-svg](https://github.com/react-native-svg/react-native-svg) - Biblioteca para renderizar gráficos SVG em aplicativos React Native.
 - [react-native-svg-transformer](https://github.com/kristerkari/react-native-svg-transformer) - Transformer para importar e usar arquivos SVG em aplicativos React Native.
+
+
+<!-- 
+  Minhas anotaçoes: 
+  
+ -->
