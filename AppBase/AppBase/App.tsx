@@ -1,25 +1,26 @@
-// import { Groups } from '@screens/Groups';
-// import { NewGroup } from '@screens/NewGroup';
-// import { Players } from '@screens/Players';
+import { StatusBar, } from 'react-native';
 
+import { Home } from './src/screens/Home'
 import { Loading } from './src/components/Loading';
-import { StatusBar } from 'react-native';
 import { ThemeProvider } from 'styled-components';
 import theme from './src/theme';
-import {useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/roboto';
-import { Header } from './src/components/Header';
+import {useFonts, Roboto_400Regular, Roboto_700Bold, Roboto_300Light, Roboto_100Thin } from '@expo-google-fonts/roboto';
+import React from 'react';
+
 
 
 export default function App() {
-  const [fontsLoaded]= useFonts({Roboto_400Regular, Roboto_700Bold});
+  const [fontsLoaded]= useFonts({Roboto_400Regular, Roboto_700Bold, Roboto_300Light, Roboto_100Thin});
+
   return (
     <ThemeProvider theme={theme}>
       <StatusBar
-        barStyle="light-content"
-        backgroundColor="transparent"
-        translucent
+      barStyle="light-content"
+      translucent
       />
-      {fontsLoaded ? <Loading/> : <Loading/>}
-    </ThemeProvider>
+      {fontsLoaded ? 
+        <Home/>
+      : <Loading/>}
+    </ThemeProvider>  
   );
 }

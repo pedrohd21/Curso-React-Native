@@ -1,16 +1,27 @@
-import { Container, BackButton, NomeApp, Logo, BackIcon} from './styles';
-// import logoImg from '../../assets/logo.png';
+import React from 'react';
+import { Container, BackButton, BackIcon, Title } from "./styles";
+import { useNavigation } from "@react-navigation/native";
 
-export function Header(){
+type Props = {
+  showBackButton: boolean;
+  title: string;
+}
+
+export function Header({ showBackButton = false, title }: Props) {
+  const navigation = useNavigation();
+
+  function handleGoBack() {
+    navigation.goBack();
+  }
+
   return (
     <Container>
-      <BackButton>
-        <BackIcon/>
-      </BackButton>
-      <NomeApp>
-        oi
-      </NomeApp>
-      {/* <Logo source={logoImg}/> */}
+      {showBackButton && (
+        <BackButton onPress={handleGoBack}>
+          <BackIcon name="arrow-left" />
+        </BackButton>
+      )}
+      <Title>{title}</Title>
     </Container>
-  )
+  );
 }

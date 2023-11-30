@@ -1,32 +1,32 @@
 import styled, { css } from 'styled-components/native';
-import { FontAwesome } from '@expo/vector-icons';
+import Icon from 'react-native-vector-icons/FontAwesome5';
 
 export const Container = styled.View`
   flex-direction: row;
   width: 100%;
+  height: 60px;
   align-items: center;
   justify-content: center;
-`;
-
-export const NomeApp = styled.Text`
-  ${({ theme }) => css`
-  font-size: ${theme.FONT_SIZE.LG}px;
-  color: ${theme.COLORS.BLACK};
-  font-family: ${theme.FONT_FAMILY.BOLD};
-  `};
-`;
-
-export const Logo = styled.Image`
-  width: 46px;
-  height: 55px;
+  margin-top: 0px;
 `;
 
 export const BackButton = styled.TouchableOpacity`
-  flex: 1;
-  `;
+  /* flex-direction: column; */
+`;
 
-  export const BackIcon = styled(FontAwesome).attrs(({ theme }) => ({
-  name: 'chevron-left',
-  size: 32,
-  color: theme.COLORS.WHITE
-}))``;
+export const BackIcon = styled(Icon).attrs(({ theme }) => ({
+  size: 25,
+  color: theme.COLORS.ORANGE,
+}))`
+`;
+
+export const Title = styled.Text`
+ ${({ theme }) => css`
+    font-size: ${theme.FONT_SIZE.XL}px;
+    color: ${theme.COLORS.ORANGE};
+    font-family: ${theme.FONT_FAMILY.BOLD};
+  `};
+  text-align: left;
+  flex:1;
+  padding-left: 10px;
+`;

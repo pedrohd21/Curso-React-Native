@@ -1,0 +1,52 @@
+expo start
+iniciar um projeto
+expo init 02Projeto --npm
+expo init App --template expo-template-blank-typescript
+
+
+
+
+Script de React Ordem
+	styled-components
+	npm install --save-dev @types/styled-components @types/styled-components-react-native
+	https://styled-components.com/docs/api#typescript
+	npm i styled-components
+	
+	navegaçao
+		https://reactnavigation.org/docs/native-stack-navigator/
+		npm install @react-navigation/native-stack
+	
+	AsyncStorage expo 
+		https://docs.expo.dev/versions/latest/sdk/async-storage/
+		npx expo install @react-native-async-storage/async-storage
+	
+	Font roboto
+		npx expo install expo-font @expo-google-fonts/roboto
+	
+	icons 
+	https://oblador.github.io/react-native-vector-icons/
+		npm install react-native-vector-icons @expo/vector-icons
+	
+	Safe area
+		npm install react-native-safe-area-context
+
+
+		
+		
+npm install styled-components
+npm install --save-dev @types/styled-components @types/styled-components-react-native
+npm install @react-navigation/native-stack
+npx expo install @react-native-async-storage/async-storage
+npx expo install expo-font @expo-google-fonts/roboto
+npm install react-native-vector-icons @expo/vector-icons
+
+
+258
+246
+364
+50
+442
+1,360 total
+
+
+
